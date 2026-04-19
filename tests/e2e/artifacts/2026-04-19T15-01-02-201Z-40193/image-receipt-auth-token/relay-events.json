@@ -1,0 +1,1218 @@
+[
+  {
+    "type": "session_meta",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " wants"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " extract"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " short"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " snippet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " from"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " an"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " image"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " reply"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " only"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Looking"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " at"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " image"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " can"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " see"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TT"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "LS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ORDER"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " A"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "102"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TOTAL"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "812"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": "34"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " need"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " pick"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " one"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " clearly"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " visible"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " short"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " snippet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TT"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "LS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " is"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " good"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " choice"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " or"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ORDER"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " A"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "102"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " or"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TOTAL"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "812"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": "34"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Any"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " of"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " these"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " would"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " work"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I'll"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " go"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TT"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "LS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it's"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " header"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " clearly"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " visible"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " response"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " must"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " only"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " {\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "snippet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\":\"<"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ">\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "}\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "So"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " {\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "snippet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\":\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TT"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "LS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"}\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Wait"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " let"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " check"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " if"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " there's"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " any"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " specific"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " instruction"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " about"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " which"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " snippet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " pick"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " says"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Extract"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " one"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " clearly"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " visible"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " short"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " snippet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " So"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " any"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " of"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " lines"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " would"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " fine"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I'll"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " provide"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TT"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "LS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Actually"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " looking"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " more"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " carefully"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " entire"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " is"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " three"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " lines"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " But"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " asks"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " for"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "short"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " snippet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " One"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " line"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " is"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " appropriate"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I'll"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " use"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " first"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " line"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " only"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " means"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " no"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " markdown"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " code"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " blocks"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " no"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " extra"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Just"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " raw"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " string"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Final"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " check"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " image"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " appears"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " pixel"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ated"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/block"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " font"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Line"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " T"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TLS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Line"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " ORDER"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " A"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "102"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Line"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "3"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " TOTAL"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "812"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": "34"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "I'll"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " extract"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TT"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "LS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Response"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " {\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "snippet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\":\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "TT"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "LS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"}"
+  },
+  {
+    "type": "text_delta",
+    "content": "{\""
+  },
+  {
+    "type": "text_delta",
+    "content": "snippet"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":\""
+  },
+  {
+    "type": "text_delta",
+    "content": "TT"
+  },
+  {
+    "type": "text_delta",
+    "content": "LS"
+  },
+  {
+    "type": "text_delta",
+    "content": " DEMO"
+  },
+  {
+    "type": "text_delta",
+    "content": " STORE"
+  },
+  {
+    "type": "text_delta",
+    "content": "\"}"
+  },
+  {
+    "type": "turn_complete",
+    "sessionId": "ff013140-516f-4487-8510-17101ad44828",
+    "costUsd": 0.0065892,
+    "inputTokens": 3902,
+    "outputTokens": 304,
+    "contextWindow": 200000
+  }
+]

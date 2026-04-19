@@ -1,0 +1,48 @@
+{
+  "caseName": "spawn-args-auth-token",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-02-22-798Z-15292/spawn-args-auth-token",
+  "rawEventCount": 57,
+  "relayEventCount": 42,
+  "sessionOptionsSummary": {
+    "maxTurns": 2,
+    "maxBudgetUsd": 1,
+    "permissionMode": "dontAsk",
+    "dangerouslySkipPermissions": false,
+    "allowedTools": [
+      "Read"
+    ],
+    "disallowedTools": [
+      "Bash"
+    ],
+    "tools": "Read,Edit",
+    "strictMcpConfig": false,
+    "effort": "low",
+    "fallbackModel": "opus",
+    "bare": false,
+    "noSessionPersistence": true,
+    "name": "e2e-spawn-args",
+    "settings": "{\"env\": {\"E2E_SETTINGS_TAG\": \"SETTINGS_OK\"}}",
+    "includeHookEvents": true,
+    "betas": "beta-test",
+    "disableSlashCommands": true,
+    "pluginDir": "/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-plugin-oysqmcto",
+    "excludeDynamicSystemPromptSections": true,
+    "debug": true,
+    "debugFile": "/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-debug-t_21h_4y/claude-debug.log"
+  },
+  "inputSummary": {
+    "prompt": "Reply with JSON only: {\"status\":\"ok\"}"
+  },
+  "rawEventLogFiles": [],
+  "metadata": {
+    "sessionId": "94aeb70b-210d-4824-9073-c22436e0acb7",
+    "usage": {
+      "costUsd": 0.018758999999999998,
+      "inputTokens": 6038,
+      "outputTokens": 43,
+      "contextWindow": 200000
+    },
+    "rawEventLogFiles": []
+  }
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "type": "session_meta",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " wants"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " reply"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " only"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " containing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " two"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " fields"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "role"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "status"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " role"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " should"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "review"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "er"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-agent"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " based"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " on"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " system"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " instructions"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " that"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " say"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "include"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " reviewer"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-agent"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " field"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " named"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " role"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " status"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " should"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ok"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " requested"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " by"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "text_delta",
+    "content": "{\""
+  },
+  {
+    "type": "text_delta",
+    "content": "role"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":\""
+  },
+  {
+    "type": "text_delta",
+    "content": "review"
+  },
+  {
+    "type": "text_delta",
+    "content": "er"
+  },
+  {
+    "type": "text_delta",
+    "content": "-agent"
+  },
+  {
+    "type": "text_delta",
+    "content": "\",\""
+  },
+  {
+    "type": "text_delta",
+    "content": "status"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":\""
+  },
+  {
+    "type": "text_delta",
+    "content": "ok"
+  },
+  {
+    "type": "text_delta",
+    "content": "\"}"
+  },
+  {
+    "type": "turn_complete",
+    "sessionId": "e472b8e6-79ff-4fb0-a9b8-19d6b0b9c5a3",
+    "costUsd": 0.0132936,
+    "inputTokens": 7384,
+    "outputTokens": 74,
+    "contextWindow": 200000
+  }
+]

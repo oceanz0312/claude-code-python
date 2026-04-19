@@ -1,0 +1,1 @@
+{"dominant_color":"red","shape":"square","confidence":"high"}

@@ -1,0 +1,3 @@
+{
+  "prompt": "What token did I ask you to remember previously? Reply with JSON only: {\"remembered\":\"<token or none>\"}"
+}

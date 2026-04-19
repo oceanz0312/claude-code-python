@@ -1,0 +1,9 @@
+[E2E] case=spawn-args-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","maxTurns":2,"maxBudgetUsd":1,"permissionMode":"dontAsk","dangerouslySkipPermissions":true,"allowedTools":["Read"],"disallowedTools":["Bash"],"tools":"Read,Edit","effort":"low","fallbackModel":"opus","bare":true,"noSessionPersistence":true,"name":"e2e-spawn-args","settings":"{\"env\":{\"E2E_SETTINGS_TAG\":\"SETTINGS_OK\"}}","settingSources":"","verbose":true,"includePartialMessages":true,"includeHookEvents":true,"betas":"beta-test","disableSlashCommands":true,"pluginDir":"/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-plugin-dwkct5x3","excludeDynamicSystemPromptSections":true,"debug":true,"debugFile":"/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-debug-1a_az5mt/claude-debug.log"}
+[E2E] input={"prompt":"Reply with JSON only: {\"status\":\"ok\"}"}
+[E2E] raw_event_count=57
+[E2E] relay_event_count=42
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T15-02-16-240Z-40193-quq2nu.ndjson
+[E2E] final_response={"status":"ok"}
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T15-01-02-201Z-40193/spawn-args-auth-token

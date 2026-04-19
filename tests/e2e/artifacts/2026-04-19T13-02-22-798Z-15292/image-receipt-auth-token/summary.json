@@ -1,0 +1,47 @@
+{
+  "caseName": "image-receipt-auth-token",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-02-22-798Z-15292/image-receipt-auth-token",
+  "rawEventCount": 536,
+  "relayEventCount": 523,
+  "sessionOptionsSummary": {
+    "model": "sonnet",
+    "dangerouslySkipPermissions": true,
+    "strictMcpConfig": false,
+    "bare": true,
+    "noSessionPersistence": false,
+    "settingSources": "",
+    "verbose": true,
+    "includePartialMessages": true,
+    "includeHookEvents": false,
+    "disableSlashCommands": false,
+    "excludeDynamicSystemPromptSections": false
+  },
+  "inputSummary": {
+    "items": [
+      {
+        "type": "text",
+        "text": "Extract one clearly visible short text snippet from the image. Reply with JSON only: {\"snippet\":\"<text>\"}"
+      },
+      {
+        "type": "local_image",
+        "path": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/fixtures/images/receipt-demo.png"
+      }
+    ]
+  },
+  "rawEventLogFiles": [
+    "claude-raw-events-2026-04-19T13-02-35-989Z-15292-yjh9f3.ndjson"
+  ],
+  "metadata": {
+    "sessionId": "bf60e270-13fa-4df8-8936-e31577c66b24",
+    "usage": {
+      "costUsd": 0.0098892,
+      "inputTokens": 3902,
+      "outputTokens": 524,
+      "contextWindow": 200000
+    },
+    "rawEventLogFiles": [
+      "claude-raw-events-2026-04-19T13-02-35-989Z-15292-yjh9f3.ndjson"
+    ]
+  }
+}

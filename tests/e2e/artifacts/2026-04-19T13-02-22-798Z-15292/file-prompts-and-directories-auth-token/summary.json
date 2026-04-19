@@ -1,0 +1,34 @@
+{
+  "caseName": "file-prompts-and-directories-auth-token",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-02-22-798Z-15292/file-prompts-and-directories-auth-token",
+  "rawEventCount": 349,
+  "relayEventCount": 228,
+  "sessionOptionsSummary": {
+    "cwd": "/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-h03jo6v4",
+    "additionalDirectories": [
+      "/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-extra-_pww7jfw"
+    ],
+    "dangerouslySkipPermissions": false,
+    "strictMcpConfig": false,
+    "bare": false,
+    "noSessionPersistence": false,
+    "includeHookEvents": false,
+    "disableSlashCommands": false,
+    "excludeDynamicSystemPromptSections": false
+  },
+  "inputSummary": {
+    "prompt": "Read the file at /var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-h03jo6v4/cwd-probe.txt and the file at /var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-extra-_pww7jfw/additional-probe.txt. Reply with one JSON object containing cwd_token, additional_token, system_tag, and append_tag."
+  },
+  "rawEventLogFiles": [],
+  "metadata": {
+    "sessionId": "ede9ff84-5c4d-474d-9083-493ee308770a",
+    "usage": {
+      "costUsd": 0.0502872,
+      "inputTokens": 32112,
+      "outputTokens": 340,
+      "contextWindow": 200000
+    },
+    "rawEventLogFiles": []
+  }
+}

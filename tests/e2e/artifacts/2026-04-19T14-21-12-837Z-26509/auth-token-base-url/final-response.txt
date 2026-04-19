@@ -1,0 +1,1 @@
+{"auth_mode":"auth-token","status":"ok","short_answer":"Authentication token mode is active and operational."}

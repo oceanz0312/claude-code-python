@@ -1,0 +1,3 @@
+{
+  "prompt": "Read the file at /var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-k578p08c/cwd-probe.txt and the file at /var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-extra-ugpc2gdd/additional-probe.txt. Reply with one JSON object containing cwd_token, additional_token, system_tag, and append_tag."
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "type": "session_meta",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " wants"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " reply"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " only"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " containing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " system"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "="
+  },
+  {
+    "type": "thinking_delta",
+    "content": "SYS"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_ALPHA"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " append"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "="
+  },
+  {
+    "type": "thinking_delta",
+    "content": "APP"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "END"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_B"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ETA"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " need"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " output"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " valid"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " these"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " two"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " fields"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "text_delta",
+    "content": "```"
+  },
+  {
+    "type": "text_delta",
+    "content": "json"
+  },
+  {
+    "type": "text_delta",
+    "content": "\n"
+  },
+  {
+    "type": "text_delta",
+    "content": "{\n"
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "system"
+  },
+  {
+    "type": "text_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":"
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "SYS"
+  },
+  {
+    "type": "text_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "text_delta",
+    "content": "_ALPHA"
+  },
+  {
+    "type": "text_delta",
+    "content": "\",\n"
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "append"
+  },
+  {
+    "type": "text_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":"
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "APP"
+  },
+  {
+    "type": "text_delta",
+    "content": "END"
+  },
+  {
+    "type": "text_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "text_delta",
+    "content": "_B"
+  },
+  {
+    "type": "text_delta",
+    "content": "ETA"
+  },
+  {
+    "type": "text_delta",
+    "content": "\"\n"
+  },
+  {
+    "type": "text_delta",
+    "content": "}\n"
+  },
+  {
+    "type": "text_delta",
+    "content": "```"
+  },
+  {
+    "type": "turn_complete",
+    "sessionId": "8d24d83c-f5e5-413f-aa10-0cfd6a383f0b",
+    "costUsd": 0.038241,
+    "inputTokens": 15858,
+    "outputTokens": 69,
+    "contextWindow": 200000
+  }
+]

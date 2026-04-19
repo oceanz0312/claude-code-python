@@ -1,0 +1,9 @@
+[E2E] case=agent-role-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","dangerouslySkipPermissions":true,"bare":true,"noSessionPersistence":true,"agent":"reviewer","settingSources":"","verbose":true,"includePartialMessages":true}
+[E2E] input={"prompt":"Reply with JSON only: {\"role\":\"<role>\",\"status\":\"ok\"}"}
+[E2E] raw_event_count=74
+[E2E] relay_event_count=61
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T15-02-34-792Z-40193-mm1yur.ndjson
+[E2E] final_response={"role":"reviewer-agent","status":"ok"}
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T15-01-02-201Z-40193/agent-role-auth-token

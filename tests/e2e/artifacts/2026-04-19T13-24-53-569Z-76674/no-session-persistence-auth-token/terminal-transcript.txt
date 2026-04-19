@@ -1,0 +1,9 @@
+[E2E] case=no-session-persistence-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","dangerouslySkipPermissions":true,"bare":true,"noSessionPersistence":true,"settingSources":"","verbose":true,"includePartialMessages":true}
+[E2E] input={"prompt":"What token did I ask you to remember previously? Reply with JSON only: {\"remembered\":\"<token or none>\"}"}
+[E2E] raw_event_count=107
+[E2E] relay_event_count=94
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T13-25-56-403Z-76674-27j7q3.ndjson
+[E2E] final_response={"remembered":"none"}
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-24-53-569Z-76674/no-session-persistence-auth-token

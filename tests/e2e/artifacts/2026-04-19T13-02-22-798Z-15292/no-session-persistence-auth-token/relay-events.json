@@ -1,0 +1,434 @@
+[
+  {
+    "type": "session_meta",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " is"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " asking"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " what"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " token"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " was"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " asked"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " remember"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " previously"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " This"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " suggests"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " there"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " might"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " memory"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " file"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " about"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " token"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Let"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " check"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " memory"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " directory"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " see"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " if"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " there's"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " any"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " relevant"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " information"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "tool_use",
+    "toolUseId": "tool_scjhxn3CHxd7l2W7qUznBjx7",
+    "toolName": "Read",
+    "input": "{\"file_path\": \"/Users/bytedance/.claude/projects/-Users-bytedance-Documents-ttls-repo-claude-code-python/memory/MEMORY.md\"}"
+  },
+  {
+    "type": "tool_result",
+    "toolUseId": "tool_scjhxn3CHxd7l2W7qUznBjx7",
+    "output": "File does not exist. Note: your current working directory is /Users/bytedance/Documents/ttls_repo/claude-code-python.",
+    "isError": true
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " MEMORY"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".md"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " file"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " doesn't"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " exist"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " so"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " there"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " are"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " no"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " memories"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " is"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " asking"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " about"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " token"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " they"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " previously"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " asked"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " remember"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " but"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " have"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " no"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " memory"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " of"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " this"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " conversation"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " or"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " any"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " previous"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " conversation"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " about"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " token"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Since"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " there"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " are"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " no"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " memory"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " files"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " answer"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " should"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "none"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"."
+  },
+  {
+    "type": "text_delta",
+    "content": "{\""
+  },
+  {
+    "type": "text_delta",
+    "content": "remember"
+  },
+  {
+    "type": "text_delta",
+    "content": "ed"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":\""
+  },
+  {
+    "type": "text_delta",
+    "content": "none"
+  },
+  {
+    "type": "text_delta",
+    "content": "\"}"
+  },
+  {
+    "type": "turn_complete",
+    "sessionId": "ceff4711-721d-4174-b937-0ad497d6e343",
+    "costUsd": 0.0317076,
+    "inputTokens": 42526,
+    "outputTokens": 152,
+    "contextWindow": 200000
+  }
+]

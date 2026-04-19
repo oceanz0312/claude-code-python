@@ -1,0 +1,7 @@
+```json
+{
+  "system_tag": "SYS_TAG_ALPHA",
+  "append_tag": "APPEND_TAG_BETA",
+  "message": "Here is the JSON response as requested."
+}
+```

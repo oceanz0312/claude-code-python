@@ -1,0 +1,9 @@
+[E2E] case=auth-token-base-url
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","dangerouslySkipPermissions":true,"bare":true,"settingSources":"","verbose":true,"includePartialMessages":true}
+[E2E] input={"items":[{"type":"text","text":"Reply with strict JSON only: {\"auth_mode\":\"auth-token\",\"status\":\"ok\",\"short_answer\":\"<one short sentence>\"}. Do not use markdown."}]}
+[E2E] raw_event_count=95
+[E2E] relay_event_count=82
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T15-01-02-210Z-40193-diasdp.ndjson
+[E2E] final_response={"auth_mode":"auth-token","status":"ok","short_answer":"Authentication token mode is active and operational."}
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T15-01-02-201Z-40193/auth-token-base-url

@@ -1,0 +1,42 @@
+{
+  "caseName": "image-red-square-auth-token",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-24-53-569Z-76674/image-red-square-auth-token",
+  "rawEventCount": 101,
+  "relayEventCount": 88,
+  "sessionOptionsSummary": {
+    "model": "sonnet",
+    "dangerouslySkipPermissions": true,
+    "bare": true,
+    "settingSources": "",
+    "verbose": true,
+    "includePartialMessages": true
+  },
+  "inputSummary": {
+    "items": [
+      {
+        "type": "text",
+        "text": "Look at the image and reply with JSON only: {\"dominant_color\":\"<color>\",\"shape\":\"<shape>\",\"confidence\":\"<high|medium|low>\"}"
+      },
+      {
+        "type": "local_image",
+        "path": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/fixtures/images/red-square.png"
+      }
+    ]
+  },
+  "rawEventLogFiles": [
+    "claude-raw-events-2026-04-19T13-25-19-974Z-76674-tpdqe5.ndjson"
+  ],
+  "metadata": {
+    "sessionId": "0ef0af90-315c-4bdb-908a-fc25cb3da0c1",
+    "usage": {
+      "costUsd": 0.013676999999999998,
+      "inputTokens": 7480,
+      "outputTokens": 89,
+      "contextWindow": 200000
+    },
+    "rawEventLogFiles": [
+      "claude-raw-events-2026-04-19T13-25-19-974Z-76674-tpdqe5.ndjson"
+    ]
+  }
+}

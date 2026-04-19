@@ -1,0 +1,22 @@
+[
+  {
+    "type": "session_meta",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The user wants me to count from 1 to 8 in one sentence. This is a very simple request that doesn't require any tools. I should just provide a sentence that counts from 1 to 8."
+  },
+  {
+    "type": "text_delta",
+    "content": "I counted from 1 to 8 in one sentence: 1, 2, 3, 4, 5, 6, 7, 8."
+  },
+  {
+    "type": "turn_complete",
+    "sessionId": "0ca13a7e-5c5f-4e05-9c24-ea8d6d56fcbf",
+    "costUsd": 0.0081096,
+    "inputTokens": 21186,
+    "outputTokens": 82,
+    "contextWindow": 200000
+  }
+]

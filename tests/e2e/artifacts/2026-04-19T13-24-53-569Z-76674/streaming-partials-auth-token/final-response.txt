@@ -1,0 +1,1 @@
+The elevator rose floor by floor, 1, 2, 3, 4, 5, 6, 7, 8, until it reached the top.

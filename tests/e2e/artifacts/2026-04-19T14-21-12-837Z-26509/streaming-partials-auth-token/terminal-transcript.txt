@@ -1,0 +1,9 @@
+[E2E] case=streaming-partials-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","dangerouslySkipPermissions":true,"bare":true,"settingSources":"","verbose":true,"includePartialMessages":true}
+[E2E] input={"prompt":"Count from 1 to 8 in one sentence, but stream naturally."}
+[E2E] raw_event_count=348
+[E2E] relay_event_count=335
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T14-22-36-760Z-26509-vao1ye.ndjson
+[E2E] final_response=One, two, three, four, five, six, seven, eight.
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T14-21-12-837Z-26509/streaming-partials-auth-token

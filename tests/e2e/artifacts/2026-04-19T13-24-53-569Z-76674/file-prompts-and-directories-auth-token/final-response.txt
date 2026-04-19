@@ -1,0 +1,10 @@
+{
+  "cwd_token": "CWD_PROBE_TOKEN",
+  "additional_token": "ADDITIONAL_PROBE_TOKEN",
+  "system_tag": "FILE_TAG_GAMMA",
+  "append_tag": "APPEND_FILE_TAG_DELTA"
+}
+
+FILE_TAG_GAMMA
+
+APPEND_FILE_TAG_DELTA

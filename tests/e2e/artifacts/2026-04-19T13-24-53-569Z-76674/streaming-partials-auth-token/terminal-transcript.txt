@@ -1,0 +1,9 @@
+[E2E] case=streaming-partials-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","dangerouslySkipPermissions":true,"bare":true,"settingSources":"","verbose":true,"includePartialMessages":true}
+[E2E] input={"prompt":"Count from 1 to 8 in one sentence, but stream naturally."}
+[E2E] raw_event_count=233
+[E2E] relay_event_count=220
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T13-26-00-389Z-76674-m9guim.ndjson
+[E2E] final_response=The elevator rose floor by floor, 1, 2, 3, 4, 5, 6, 7, 8, until it reached the top.
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-24-53-569Z-76674/streaming-partials-auth-token

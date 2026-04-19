@@ -1,0 +1,9 @@
+[E2E] case=streaming-partials-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","dangerouslySkipPermissions":true,"bare":true,"settingSources":"","verbose":true,"includePartialMessages":true}
+[E2E] input={"prompt":"Count from 1 to 8 in one sentence, but stream naturally."}
+[E2E] raw_event_count=349
+[E2E] relay_event_count=336
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T13-42-47-328Z-18108-pzt3qy.ndjson
+[E2E] final_response=As the fireworks burst above the lake, I counted each explosion silently—one, two, three, four, five, six, seven, eight—until the night sky finally went dark again.
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-40-28-645Z-18108/streaming-partials-auth-token

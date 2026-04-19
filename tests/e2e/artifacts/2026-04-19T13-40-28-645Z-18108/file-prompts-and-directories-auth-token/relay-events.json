@@ -1,0 +1,1330 @@
+[
+  {
+    "type": "session_meta",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " wants"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " read"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " two"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " files"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " return"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " object"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " specific"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " fields"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " cwd"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_token"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " from"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " /"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "var"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/f"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "olders"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/d"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "t"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "mb"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "r"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "95"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "s"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "0"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "j"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "78"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "rx"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "vn"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "r"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "92"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "w"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "dm"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "000"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "0"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "gn"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/T"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/agent"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-sdk"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-e"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "e"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ah"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "16"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "q"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "am"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "5"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/c"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "wd"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-pro"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".txt"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " additional"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_token"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " from"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " /"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "var"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/f"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "olders"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/d"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "t"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "mb"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "r"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "95"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "s"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "0"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "j"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "78"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "rx"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "vn"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "r"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "92"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "w"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "dm"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "000"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "0"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "gn"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/T"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/agent"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-sdk"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-e"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "e"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-extra"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ch"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "z"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ef"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "k"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "/add"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "itional"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-pro"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "be"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".txt"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "3"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " system"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " FILE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_G"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "AMMA"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " append"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " APP"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "END"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_FILE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_DELTA"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " need"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " read"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " both"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " files"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Let"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " do"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " that"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " parallel"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "tool_use",
+    "toolUseId": "tool_NoO4hCqiY7tGPCrCfwGSWHdw",
+    "toolName": "Read",
+    "input": "{\"file_path\": \"/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-ah16qam5/cwd-probe.txt\"}"
+  },
+  {
+    "type": "tool_use",
+    "toolUseId": "tool_aMSR1JdvzGTqkpcOdqb7LVIY",
+    "toolName": "Read",
+    "input": "{\"file_path\": \"/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-extra-4chzef6k/additional-probe.txt\"}"
+  },
+  {
+    "type": "tool_result",
+    "toolUseId": "tool_NoO4hCqiY7tGPCrCfwGSWHdw",
+    "output": "1\tCWD_PROBE_TOKEN\n2\t",
+    "isError": false
+  },
+  {
+    "type": "tool_result",
+    "toolUseId": "tool_aMSR1JdvzGTqkpcOdqb7LVIY",
+    "output": "1\tADDITIONAL_PROBE_TOKEN\n2\t",
+    "isError": false
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " wants"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " reply"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " one"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " object"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " containing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " cwd"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_token"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "C"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "WD"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_PROBE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TOKEN"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " ("
+  },
+  {
+    "type": "thinking_delta",
+    "content": "from"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " first"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " file"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ")\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " additional"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_token"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ADD"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ITION"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "AL"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_PROBE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TOKEN"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " ("
+  },
+  {
+    "type": "thinking_delta",
+    "content": "from"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " second"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " file"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ")\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " system"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "FILE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_G"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "AMMA"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " ("
+  },
+  {
+    "type": "thinking_delta",
+    "content": "as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " specified"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " instructions"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ")\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " append"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "APP"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "END"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_FILE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_DELTA"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " ("
+  },
+  {
+    "type": "thinking_delta",
+    "content": "as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " specified"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " instructions"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ")\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " also"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " need"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " include"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " FILE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_G"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "AMMA"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " APP"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "END"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_FILE"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "_DELTA"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " my"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " final"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " answer"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Let"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " construct"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " JSON"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " object"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " include"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " those"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " tags"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " well"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "text_delta",
+    "content": "```"
+  },
+  {
+    "type": "text_delta",
+    "content": "json"
+  },
+  {
+    "type": "text_delta",
+    "content": "\n"
+  },
+  {
+    "type": "text_delta",
+    "content": "{\n"
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "cwd"
+  },
+  {
+    "type": "text_delta",
+    "content": "_token"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":"
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "C"
+  },
+  {
+    "type": "text_delta",
+    "content": "WD"
+  },
+  {
+    "type": "text_delta",
+    "content": "_PROBE"
+  },
+  {
+    "type": "text_delta",
+    "content": "_TOKEN"
+  },
+  {
+    "type": "text_delta",
+    "content": "\",\n"
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "additional"
+  },
+  {
+    "type": "text_delta",
+    "content": "_token"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":"
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "ADD"
+  },
+  {
+    "type": "text_delta",
+    "content": "ITION"
+  },
+  {
+    "type": "text_delta",
+    "content": "AL"
+  },
+  {
+    "type": "text_delta",
+    "content": "_PROBE"
+  },
+  {
+    "type": "text_delta",
+    "content": "_TOKEN"
+  },
+  {
+    "type": "text_delta",
+    "content": "\",\n"
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "system"
+  },
+  {
+    "type": "text_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":"
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "FILE"
+  },
+  {
+    "type": "text_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "text_delta",
+    "content": "_G"
+  },
+  {
+    "type": "text_delta",
+    "content": "AMMA"
+  },
+  {
+    "type": "text_delta",
+    "content": "\",\n"
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "append"
+  },
+  {
+    "type": "text_delta",
+    "content": "_tag"
+  },
+  {
+    "type": "text_delta",
+    "content": "\":"
+  },
+  {
+    "type": "text_delta",
+    "content": " \""
+  },
+  {
+    "type": "text_delta",
+    "content": "APP"
+  },
+  {
+    "type": "text_delta",
+    "content": "END"
+  },
+  {
+    "type": "text_delta",
+    "content": "_FILE"
+  },
+  {
+    "type": "text_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "text_delta",
+    "content": "_DELTA"
+  },
+  {
+    "type": "text_delta",
+    "content": "\"\n"
+  },
+  {
+    "type": "text_delta",
+    "content": "}\n"
+  },
+  {
+    "type": "text_delta",
+    "content": "```\n\n"
+  },
+  {
+    "type": "text_delta",
+    "content": "FILE"
+  },
+  {
+    "type": "text_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "text_delta",
+    "content": "_G"
+  },
+  {
+    "type": "text_delta",
+    "content": "AMMA"
+  },
+  {
+    "type": "text_delta",
+    "content": "\n"
+  },
+  {
+    "type": "text_delta",
+    "content": "APP"
+  },
+  {
+    "type": "text_delta",
+    "content": "END"
+  },
+  {
+    "type": "text_delta",
+    "content": "_FILE"
+  },
+  {
+    "type": "text_delta",
+    "content": "_TAG"
+  },
+  {
+    "type": "text_delta",
+    "content": "_DELTA"
+  },
+  {
+    "type": "turn_complete",
+    "sessionId": "aa7dffe5-3607-4e8e-ba85-18b987585768",
+    "costUsd": 0.0110694,
+    "inputTokens": 7931,
+    "outputTokens": 442,
+    "contextWindow": 200000
+  }
+]

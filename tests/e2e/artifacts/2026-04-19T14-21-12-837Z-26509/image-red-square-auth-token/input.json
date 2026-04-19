@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "type": "text",
+      "text": "Look at the image and reply with JSON only: {\"dominant_color\":\"<color>\",\"shape\":\"<shape>\",\"confidence\":\"<high|medium|low>\"}"
+    },
+    {
+      "type": "local_image",
+      "path": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/fixtures/images/red-square.png"
+    }
+  ]
+}

@@ -1,0 +1,2790 @@
+[
+  {
+    "type": "session_meta",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " user"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " wants"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " count"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " from"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " one"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sentence"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " but"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " stream"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " naturally"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " This"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " means"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " should"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " output"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " numbers"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " through"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " single"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sentence"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " but"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " make"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " flow"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " naturally"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " rather"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " than"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " just"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " listing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " them"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " commas"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " need"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " construct"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sentence"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " that"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " incorporates"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " numbers"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " order"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " making"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sound"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " like"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " natural"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " language"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Something"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " like"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " narrative"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " or"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " descriptive"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sentence"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Examples"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " watched"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " child"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " counted"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " out"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " her"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " toys"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " little"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " bear"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sat"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " on"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " shelf"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " dolls"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " lay"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " on"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " bed"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "3"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " blocks"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " formed"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " tower"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " cars"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " lined"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " up"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " on"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " rug"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "5"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " cray"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ons"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " rolled"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " under"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " table"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " mar"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "bles"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " gl"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "int"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ed"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " light"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "7"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " stickers"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " decorated"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " her"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " notebook"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " tiny"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " beads"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " scattered"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " across"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " floor"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\"\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Or"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " simpler"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "She"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " ran"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " up"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " stairs"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " hitting"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " step"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "3"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "5"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "7"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " rapid"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " succession"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\"\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Or"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " more"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " naturally"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "It"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " took"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " exactly"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " minute"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " find"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " my"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " keys"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " minutes"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " start"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " car"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "3"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " minutes"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " hit"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " traffic"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " minutes"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " curse"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " delay"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "5"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " minutes"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " find"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " det"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "our"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " minutes"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " regret"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "7"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " minutes"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " finally"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " see"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " exit"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " minutes"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " total"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " realize"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " was"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " going"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " wrong"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " way"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\"\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " should"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " make"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sound"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " conversational"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " flowing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Let"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " think"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " of"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " good"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " one"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Maybe"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " something"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " like"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " toddler"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " proudly"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " held"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " up"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " finger"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "3"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "5"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "7"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " then"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " grin"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ning"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " she"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " proved"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " she"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " could"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " count"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " them"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " all"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\"\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Actually"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " prompt"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " says"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "stream"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " naturally"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " which"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " might"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " mean"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " should"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " output"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " word"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " by"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " word"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " or"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " flowing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " manner"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "?"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " No"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " think"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " means"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sentence"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " itself"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " should"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " read"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " naturally"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " But"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "stream"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " could"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " also"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " refer"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " how"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " present"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Wait"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " \""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "stream"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " naturally"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": " might"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " mean"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " should"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " present"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " streaming"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " way"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " -"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " like"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " output"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " if"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " it's"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " flowing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "?"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " But"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " an"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " AI"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " output"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " text"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " all"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " at"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " once"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " this"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " interface"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " However"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " can"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " make"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sentence"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " struct"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "urally"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " natural"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Let"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " me"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " go"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " with"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " descriptive"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " flowing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sentence"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\""
+  },
+  {
+    "type": "thinking_delta",
+    "content": "By"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " time"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " finished"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " my"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " morning"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " routine"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "—"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "w"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "aking"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " up"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " at"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " brewing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " coffee"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " by"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " shower"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "ing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " at"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "3"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " dressing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " by"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " eating"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " breakfast"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " at"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "5"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " catching"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " o"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "'clock"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " train"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " reading"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "7"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " emails"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sending"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " replies"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "—I"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " realized"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " day"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " had"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " barely"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " begun"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\"\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "Wait"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " that"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " uses"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " numbers"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " as"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " times"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " quantities"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " mixed"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "thinking_delta",
+    "content": " Maybe"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " better"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " to"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " have"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " consistent"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " counting"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "How"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " about"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "\"The"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " h"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "iker"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " counted"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " her"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " gear"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " aloud"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ":"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sleeping"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " bag"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "2"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " trekking"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " poles"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "3"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " water"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " bottles"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "4"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " protein"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " bars"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "5"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " tent"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " stakes"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "6"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " feet"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " of"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " rope"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "7"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " snapshots"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " of"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " the"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " trail"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " map"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ","
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " deep"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " breath"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "s"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " before"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " she"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " started"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " climbing"
+  },
+  {
+    "type": "thinking_delta",
+    "content": ".\"\n\n"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "That's"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " natural"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " and"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " counts"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " "
+  },
+  {
+    "type": "thinking_delta",
+    "content": "1"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "-"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "8"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " order"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " in"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " a"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " single"
+  },
+  {
+    "type": "thinking_delta",
+    "content": " sentence"
+  },
+  {
+    "type": "thinking_delta",
+    "content": "."
+  },
+  {
+    "type": "text_delta",
+    "content": "The"
+  },
+  {
+    "type": "text_delta",
+    "content": " h"
+  },
+  {
+    "type": "text_delta",
+    "content": "iker"
+  },
+  {
+    "type": "text_delta",
+    "content": " counted"
+  },
+  {
+    "type": "text_delta",
+    "content": " her"
+  },
+  {
+    "type": "text_delta",
+    "content": " gear"
+  },
+  {
+    "type": "text_delta",
+    "content": " aloud"
+  },
+  {
+    "type": "text_delta",
+    "content": ":"
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": "1"
+  },
+  {
+    "type": "text_delta",
+    "content": " sleeping"
+  },
+  {
+    "type": "text_delta",
+    "content": " bag"
+  },
+  {
+    "type": "text_delta",
+    "content": ","
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": "2"
+  },
+  {
+    "type": "text_delta",
+    "content": " trekking"
+  },
+  {
+    "type": "text_delta",
+    "content": " poles"
+  },
+  {
+    "type": "text_delta",
+    "content": ","
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": "3"
+  },
+  {
+    "type": "text_delta",
+    "content": " water"
+  },
+  {
+    "type": "text_delta",
+    "content": " bottles"
+  },
+  {
+    "type": "text_delta",
+    "content": ","
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": "4"
+  },
+  {
+    "type": "text_delta",
+    "content": " protein"
+  },
+  {
+    "type": "text_delta",
+    "content": " bars"
+  },
+  {
+    "type": "text_delta",
+    "content": ","
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": "5"
+  },
+  {
+    "type": "text_delta",
+    "content": " tent"
+  },
+  {
+    "type": "text_delta",
+    "content": " stakes"
+  },
+  {
+    "type": "text_delta",
+    "content": ","
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": "6"
+  },
+  {
+    "type": "text_delta",
+    "content": " feet"
+  },
+  {
+    "type": "text_delta",
+    "content": " of"
+  },
+  {
+    "type": "text_delta",
+    "content": " rope"
+  },
+  {
+    "type": "text_delta",
+    "content": ","
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": "7"
+  },
+  {
+    "type": "text_delta",
+    "content": " snapshots"
+  },
+  {
+    "type": "text_delta",
+    "content": " of"
+  },
+  {
+    "type": "text_delta",
+    "content": " the"
+  },
+  {
+    "type": "text_delta",
+    "content": " trail"
+  },
+  {
+    "type": "text_delta",
+    "content": " map"
+  },
+  {
+    "type": "text_delta",
+    "content": ","
+  },
+  {
+    "type": "text_delta",
+    "content": " and"
+  },
+  {
+    "type": "text_delta",
+    "content": " "
+  },
+  {
+    "type": "text_delta",
+    "content": "8"
+  },
+  {
+    "type": "text_delta",
+    "content": " deep"
+  },
+  {
+    "type": "text_delta",
+    "content": " breath"
+  },
+  {
+    "type": "text_delta",
+    "content": "s"
+  },
+  {
+    "type": "text_delta",
+    "content": " before"
+  },
+  {
+    "type": "text_delta",
+    "content": " she"
+  },
+  {
+    "type": "text_delta",
+    "content": " started"
+  },
+  {
+    "type": "text_delta",
+    "content": " climbing"
+  },
+  {
+    "type": "text_delta",
+    "content": "."
+  },
+  {
+    "type": "turn_complete",
+    "sessionId": "c9c95345-4cbd-4808-a31f-ec9324ca7961",
+    "costUsd": 0.011938200000000001,
+    "inputTokens": 3720,
+    "outputTokens": 697,
+    "contextWindow": 200000
+  }
+]

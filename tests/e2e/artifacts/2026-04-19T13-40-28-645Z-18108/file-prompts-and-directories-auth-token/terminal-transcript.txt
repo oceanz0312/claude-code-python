@@ -1,0 +1,19 @@
+[E2E] case=file-prompts-and-directories-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","cwd":"/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-ah16qam5","additionalDirectories":["/var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-extra-4chzef6k"],"dangerouslySkipPermissions":true,"bare":true,"settingSources":"","verbose":true,"includePartialMessages":true}
+[E2E] input={"prompt":"Read the file at /var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-ah16qam5/cwd-probe.txt and the file at /var/folders/dt/nmb6r95s0j78rxvn4r92w1dm0000gn/T/agent-sdk-e2e-extra-4chzef6k/additional-probe.txt. Reply with one JSON object containing cwd_token, additional_token, system_tag, and append_tag."}
+[E2E] raw_event_count=451
+[E2E] relay_event_count=329
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T13-42-15-879Z-18108-76pp80.ndjson
+[E2E] final_response=```json
+{
+  "cwd_token": "CWD_PROBE_TOKEN",
+  "additional_token": "ADDITIONAL_PROBE_TOKEN",
+  "system_tag": "FILE_TAG_GAMMA",
+  "append_tag": "APPEND_FILE_TAG_DELTA"
+}
+```
+
+FILE_TAG_GAMMA
+APPEND_FILE_TAG_DELTA
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-40-28-645Z-18108/file-prompts-and-directories-auth-token

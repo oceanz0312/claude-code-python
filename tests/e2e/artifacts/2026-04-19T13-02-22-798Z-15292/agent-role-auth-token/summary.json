@@ -1,0 +1,31 @@
+{
+  "caseName": "agent-role-auth-token",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-02-22-798Z-15292/agent-role-auth-token",
+  "rawEventCount": 116,
+  "relayEventCount": 103,
+  "sessionOptionsSummary": {
+    "dangerouslySkipPermissions": false,
+    "strictMcpConfig": false,
+    "bare": false,
+    "noSessionPersistence": true,
+    "agent": "reviewer",
+    "includeHookEvents": false,
+    "disableSlashCommands": false,
+    "excludeDynamicSystemPromptSections": false
+  },
+  "inputSummary": {
+    "prompt": "Reply with JSON only: {\"role\":\"<role>\",\"status\":\"ok\"}"
+  },
+  "rawEventLogFiles": [],
+  "metadata": {
+    "sessionId": "c760cf1e-bb16-4165-be88-ed5ae8938b39",
+    "usage": {
+      "costUsd": 0.0484638,
+      "inputTokens": 15865,
+      "outputTokens": 104,
+      "contextWindow": 200000
+    },
+    "rawEventLogFiles": []
+  }
+}

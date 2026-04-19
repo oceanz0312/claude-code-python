@@ -1,0 +1,9 @@
+[E2E] case=image-shapes-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","dangerouslySkipPermissions":true,"bare":true,"settingSources":"","verbose":true,"includePartialMessages":true}
+[E2E] input={"items":[{"type":"text","text":"Count the obvious geometric shapes in the image. Reply with JSON only: {\"shape_count\":<number>,\"shapes\":[\"...\"]}"},{"type":"local_image","path":"/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/fixtures/images/shapes-demo.png"}]}
+[E2E] raw_event_count=122
+[E2E] relay_event_count=109
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T13-28-42-685Z-85956-ct6oza.ndjson
+[E2E] final_response={"shape_count":3,"shapes":["circle","triangle","square"]}
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-28-37-757Z-85956/image-shapes-auth-token

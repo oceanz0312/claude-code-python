@@ -1,0 +1,9 @@
+[E2E] case=image-red-square-auth-token
+[E2E] auth_mode=auth-token
+[E2E] options={"model":"sonnet","dangerouslySkipPermissions":true,"strictMcpConfig":false,"bare":true,"noSessionPersistence":false,"settingSources":"","verbose":true,"includePartialMessages":true,"includeHookEvents":false,"disableSlashCommands":false,"excludeDynamicSystemPromptSections":false}
+[E2E] input={"items":[{"type":"text","text":"Look at the image and reply with JSON only: {\"dominant_color\":\"<color>\",\"shape\":\"<shape>\",\"confidence\":\"<high|medium|low>\"}"},{"type":"local_image","path":"/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/fixtures/images/red-square.png"}]}
+[E2E] raw_event_count=478
+[E2E] relay_event_count=465
+[E2E] raw_event_log_files=claude-raw-events-2026-04-19T13-02-46-824Z-15292-d54atc.ndjson
+[E2E] final_response={"dominant_color":"red","shape":"square","confidence":"low"}
+[E2E] artifact_dir=/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-02-22-798Z-15292/image-red-square-auth-token

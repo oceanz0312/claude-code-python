@@ -1,0 +1,42 @@
+{
+  "caseName": "image-shapes-auth-token",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T15-01-02-201Z-40193/image-shapes-auth-token",
+  "rawEventCount": 115,
+  "relayEventCount": 102,
+  "sessionOptionsSummary": {
+    "model": "sonnet",
+    "dangerouslySkipPermissions": true,
+    "bare": true,
+    "settingSources": "",
+    "verbose": true,
+    "includePartialMessages": true
+  },
+  "inputSummary": {
+    "items": [
+      {
+        "type": "text",
+        "text": "Count the obvious geometric shapes in the image. Reply with JSON only: {\"shape_count\":<number>,\"shapes\":[\"...\"]}"
+      },
+      {
+        "type": "local_image",
+        "path": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/fixtures/images/shapes-demo.png"
+      }
+    ]
+  },
+  "rawEventLogFiles": [
+    "claude-raw-events-2026-04-19T15-01-08-784Z-40193-dah4rk.ndjson"
+  ],
+  "metadata": {
+    "sessionId": "9ddbce9a-d389-447b-93ad-9a8403c27fed",
+    "usage": {
+      "costUsd": 0.0143226,
+      "inputTokens": 7744,
+      "outputTokens": 103,
+      "contextWindow": 200000
+    },
+    "rawEventLogFiles": [
+      "claude-raw-events-2026-04-19T15-01-08-784Z-40193-dah4rk.ndjson"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "caseName": "auth-token-base-url",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-24-53-569Z-76674/auth-token-base-url",
+  "rawEventCount": 144,
+  "relayEventCount": 131,
+  "sessionOptionsSummary": {
+    "model": "sonnet",
+    "dangerouslySkipPermissions": true,
+    "bare": true,
+    "settingSources": "",
+    "verbose": true,
+    "includePartialMessages": true
+  },
+  "inputSummary": {
+    "items": [
+      {
+        "type": "text",
+        "text": "Reply with strict JSON only: {\"auth_mode\":\"auth-token\",\"status\":\"ok\",\"short_answer\":\"<one short sentence>\"}. Do not use markdown."
+      }
+    ]
+  },
+  "rawEventLogFiles": [
+    "claude-raw-events-2026-04-19T13-24-53-577Z-76674-brfmgz.ndjson"
+  ],
+  "metadata": {
+    "sessionId": "d5c023a6-afe0-49c6-9062-5d684d8268f9",
+    "usage": {
+      "costUsd": 0.014305499999999999,
+      "inputTokens": 7470,
+      "outputTokens": 132,
+      "contextWindow": 200000
+    },
+    "rawEventLogFiles": [
+      "claude-raw-events-2026-04-19T13-24-53-577Z-76674-brfmgz.ndjson"
+    ]
+  }
+}

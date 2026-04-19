@@ -1,0 +1,30 @@
+{
+  "caseName": "no-session-persistence-auth-token",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-02-22-798Z-15292/no-session-persistence-auth-token",
+  "rawEventCount": 164,
+  "relayEventCount": 106,
+  "sessionOptionsSummary": {
+    "dangerouslySkipPermissions": false,
+    "strictMcpConfig": false,
+    "bare": false,
+    "noSessionPersistence": true,
+    "includeHookEvents": false,
+    "disableSlashCommands": false,
+    "excludeDynamicSystemPromptSections": false
+  },
+  "inputSummary": {
+    "prompt": "What token did I ask you to remember previously? Reply with JSON only: {\"remembered\":\"<token or none>\"}"
+  },
+  "rawEventLogFiles": [],
+  "metadata": {
+    "sessionId": "ceff4711-721d-4174-b937-0ad497d6e343",
+    "usage": {
+      "costUsd": 0.0317076,
+      "inputTokens": 42526,
+      "outputTokens": 152,
+      "contextWindow": 200000
+    },
+    "rawEventLogFiles": []
+  }
+}

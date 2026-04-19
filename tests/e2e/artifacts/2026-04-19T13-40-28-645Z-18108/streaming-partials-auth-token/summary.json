@@ -1,0 +1,26 @@
+{
+  "caseName": "streaming-partials-auth-token",
+  "authMode": "auth-token",
+  "artifactDir": "/Users/bytedance/Documents/ttls_repo/claude-code-python/tests/e2e/artifacts/2026-04-19T13-40-28-645Z-18108/streaming-partials-auth-token",
+  "rawEventCount": 349,
+  "relayEventCount": 336,
+  "sessionOptionsSummary": {
+    "model": "sonnet",
+    "dangerouslySkipPermissions": true,
+    "bare": true,
+    "settingSources": "",
+    "verbose": true,
+    "includePartialMessages": true
+  },
+  "inputSummary": {
+    "prompt": "Count from 1 to 8 in one sentence, but stream naturally."
+  },
+  "rawEventLogFiles": [
+    "claude-raw-events-2026-04-19T13-42-47-328Z-18108-pzt3qy.ndjson"
+  ],
+  "metadata": {
+    "rawEventLogFiles": [
+      "claude-raw-events-2026-04-19T13-42-47-328Z-18108-pzt3qy.ndjson"
+    ]
+  }
+}
