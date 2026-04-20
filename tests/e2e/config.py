@@ -81,6 +81,7 @@ def _load_config_internal() -> E2EConfig:
 
 
 def _load_secrets_from_env() -> E2ESecrets:
+    _load_dotenv()
     auth_token = _get_optional_string(os.environ.get("E2E_AUTH_TOKEN"))
     base_url = _get_optional_string(os.environ.get("E2E_BASE_URL"))
     api_key = _get_optional_string(os.environ.get("E2E_API_KEY"))
@@ -93,6 +94,22 @@ def _load_secrets_from_env() -> E2ESecrets:
         )
 
     return E2ESecrets(model=model, api_key=api_key, auth_token=auth_token, base_url=base_url)
+
+
+def _load_dotenv() -> None:
+    env_file = Path(_REPO_ROOT) / ".env"
+    if not env_file.exists():
+        return
+    with open(env_file) as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, value = line.partition("=")
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            if key and key not in os.environ:
+                os.environ[key] = value
 
 
 def _get_optional_string(value: object) -> Optional[str]:
