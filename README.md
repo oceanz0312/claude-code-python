@@ -54,7 +54,7 @@ echo "Python SDK: OK"
 
 ### K8s Init Container 方式
 
-如果你的 Go 服务运行在 Kubernetes 上，可以通过 init container 在 Pod 启动前安装依赖：
+如果你的服务运行在 Kubernetes 上，可以通过 init container 在 Pod 启动前安装依赖：
 
 ```yaml
 apiVersion: apps/v1
@@ -77,7 +77,7 @@ spec:
             - name: claude-bin
               mountPath: /shared
       containers:
-        - name: your-go-service
+        - name: your-service
           env:
             - name: PATH
               value: "/shared:/usr/local/bin:/usr/bin:/bin"

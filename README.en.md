@@ -54,7 +54,7 @@ echo "Python SDK: OK"
 
 ### K8s Init Container
 
-If your Go service runs on Kubernetes, install dependencies via an init container before the Pod starts:
+If your service runs on Kubernetes, install dependencies via an init container before the Pod starts:
 
 ```yaml
 apiVersion: apps/v1
@@ -77,7 +77,7 @@ spec:
             - name: claude-bin
               mountPath: /shared
       containers:
-        - name: your-go-service
+        - name: your-service
           env:
             - name: PATH
               value: "/shared:/usr/local/bin:/usr/bin:/bin"
