@@ -1,0 +1,1064 @@
+# claude-code-python
+
+> Complete API reference for AI agents. This document describes every exported class, type, and function in the `claude-code-python` SDK.
+
+claude-code-python is a zero-dependency Python SDK that drives the Claude Code CLI (`@anthropic-ai/claude-code` npm package) as a subprocess. It provides a typed async API for buffered and streaming interactions with Claude Code, automatic session management across turns, structured output via JSON Schema, image input, abort/cancel control, and fail-fast API error detection. It is a faithful 1:1 port of the TypeScript SDK claude-code-node.
+
+---
+
+## Installation
+
+Prerequisites:
+- Node.js >= 22 (Claude Code CLI runtime)
+- Claude Code CLI: `npm install -g @anthropic-ai/claude-code`
+- Python >= 3.9
+
+```bash
+# Install from GitHub
+pip install git+https://github.com/oceanz0312/claude-code-python.git
+
+# Or clone and install in dev mode
+git clone https://github.com/oceanz0312/claude-code-python.git
+cd claude-code-python
+pip install -e .
+```
+
+Authentication (environment variables or code):
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+# Or for proxy/compatible endpoints:
+export ANTHROPIC_AUTH_TOKEN=your-token
+export ANTHROPIC_BASE_URL=https://your-proxy.com/v1
+```
+
+---
+
+## Core Concepts
+
+### Data Flow
+
+Your code -> `ClaudeCode` (entry point) -> `Session` (state management, stream dedup, fail-fast) -> `ClaudeCodeExec` (subprocess management, stdin/stdout, abort) -> `claude` CLI process -> stdout NDJSON -> `parse_line()` -> `Translator.translate()` -> `RelayEvent` stream -> your callback or async iterator.
+
+### Buffered vs Streaming
+
+- **Buffered mode** (`session.run()`): Collects all events, returns a `Turn` with `final_response`, `usage`, `events`, and optional `structured_output`.
+- **Streaming mode** (`session.run_streamed()`): Returns a `StreamedTurn` whose `events` is an `AsyncIterator[RelayEvent]` you consume with `async for`.
+
+### Session Lifecycle
+
+1. Create a `ClaudeCode` instance (optionally with `ClaudeCodeOptions` for auth/env).
+2. Call `start_session()`, `resume_session(session_id)`, or `continue_session()` to get a `Session`.
+3. Call `session.run(input)` or `session.run_streamed(input)` for each turn. The session auto-resumes across turns -- you never manage session IDs manually.
+
+---
+
+## API Reference
+
+### `ClaudeCode`
+
+The main entry point. Creates sessions for interacting with Claude Code CLI.
+
+```python
+class ClaudeCode:
+    def __init__(self, options: ClaudeCodeOptions = None) -> None
+    def start_session(self, options: SessionOptions = None) -> Session
+    def resume_session(self, session_id: str, options: SessionOptions = None) -> Session
+    def continue_session(self, options: SessionOptions = None) -> Session
+```
+
+**Parameters:**
+- `options` (`ClaudeCodeOptions | None`): Global options for CLI path, environment, and authentication.
+
+**Methods:**
+- `start_session(options)` -> `Session`: Creates a new session.
+- `resume_session(session_id, options)` -> `Session`: Resumes an existing session by its ID.
+- `continue_session(options)` -> `Session`: Continues the most recent session (uses `--continue` flag).
+
+---
+
+### `ClaudeCodeOptions`
+
+```python
+@dataclass
+class ClaudeCodeOptions:
+    cli_path: Optional[str] = None        # Path to the claude CLI binary
+    env: Optional[Dict[str, str]] = None  # Environment variables for the subprocess
+    api_key: Optional[str] = None         # Anthropic API key (sets ANTHROPIC_API_KEY env var)
+    auth_token: Optional[str] = None      # Auth token (sets ANTHROPIC_AUTH_TOKEN env var)
+    base_url: Optional[str] = None        # Base URL (sets ANTHROPIC_BASE_URL env var)
+```
+
+---
+
+### `SessionOptions`
+
+Controls all CLI flags and session behavior. All fields are optional.
+
+```python
+@dataclass
+class SessionOptions:
+    # Model and context
+    model: Optional[str] = None                          # Model name (e.g. "sonnet", "opus")
+    cwd: Optional[str] = None                            # Working directory for the CLI
+    additional_directories: Optional[List[str]] = None   # Extra directories to expose
+    max_turns: Optional[int] = None                      # Max agent turns
+    max_budget_usd: Optional[float] = None               # Cost cap in USD
+
+    # System prompt
+    system_prompt: Optional[str] = None                  # Override system prompt
+    system_prompt_file: Optional[str] = None             # Load system prompt from file
+    append_system_prompt: Optional[str] = None           # Append to default system prompt
+    append_system_prompt_file: Optional[str] = None      # Append from file
+
+    # Permissions
+    permission_mode: Optional[PermissionMode] = None     # Permission mode literal
+    dangerously_skip_permissions: Optional[bool] = None  # Skip all permission prompts
+    allowed_tools: Optional[List[str]] = None            # Tool allowlist
+    disallowed_tools: Optional[List[str]] = None         # Tool blocklist
+    tools: Optional[str] = None                          # Tools configuration string
+    permission_prompt_tool: Optional[str] = None         # Custom permission prompt tool
+
+    # MCP
+    mcp_config: Optional[Union[str, List[str]]] = None   # MCP config file path(s)
+    strict_mcp_config: Optional[bool] = None             # Strict MCP config mode
+
+    # Model behavior
+    effort: Optional[Effort] = None                      # Effort level
+    fallback_model: Optional[str] = None                 # Fallback model name
+
+    # Session behavior
+    bare: Optional[bool] = None                          # Bare mode (no CLAUDE.md, etc.)
+    no_session_persistence: Optional[bool] = None        # Disable session persistence
+    chrome: Optional[bool] = None                        # Enable/disable Chrome integration
+
+    # Agents
+    agents: Optional[Union[Dict[str, AgentDefinition], str]] = None  # Sub-agent definitions
+    agent: Optional[str] = None                          # Agent name to use
+
+    # Naming and settings
+    name: Optional[str] = None                           # Session name
+    settings: Optional[str] = None                       # Settings file path
+    setting_sources: Optional[str] = None                # Setting sources
+
+    # Output and debugging
+    verbose: Optional[bool] = None                       # Verbose output (default: True)
+    include_partial_messages: Optional[bool] = None      # Include partial messages (default: True)
+    include_hook_events: Optional[bool] = None           # Include hook events
+    betas: Optional[str] = None                          # Beta features
+    worktree: Optional[str] = None                       # Worktree path
+    disable_slash_commands: Optional[bool] = None        # Disable slash commands
+    plugin_dir: Optional[Union[str, List[str]]] = None   # Plugin directory path(s)
+    exclude_dynamic_system_prompt_sections: Optional[bool] = None
+
+    # Debug
+    debug: Optional[Union[str, bool]] = None             # Debug mode
+    debug_file: Optional[str] = None                     # Debug file path
+
+    # Structured output
+    json_schema: Optional[Union[str, Dict[str, Any]]] = None  # JSON Schema for structured output
+
+    # Session ID management
+    session_id: Optional[str] = None                     # Explicit session ID
+    fork_session: Optional[bool] = None                  # Fork the session
+
+    # Raw event logging
+    raw_event_log: Optional[Union[bool, str]] = None     # Enable raw event logging (bool or directory path)
+```
+
+---
+
+### `AgentDefinition`
+
+Defines a sub-agent for use with the `agents` session option.
+
+```python
+@dataclass
+class AgentDefinition:
+    description: Optional[str] = None
+    prompt: Optional[str] = None
+    tools: Optional[List[str]] = None
+    allowed_tools: Optional[List[str]] = None
+    disallowed_tools: Optional[List[str]] = None
+    model: Optional[str] = None
+    effort: Optional[Effort] = None
+    max_turns: Optional[int] = None
+    permission_mode: Optional[PermissionMode] = None
+    isolation: Optional[Literal["worktree"]] = None
+    initial_prompt: Optional[str] = None
+    mcp_servers: Optional[Dict[str, Any]] = None
+```
+
+---
+
+### `TurnOptions`
+
+Per-turn options passed to `session.run()` or `session.run_streamed()`.
+
+```python
+@dataclass
+class TurnOptions:
+    signal: Any = None                                              # Abort signal (asyncio.Event or object with addEventListener)
+    on_raw_event: Optional[Callable[[RawClaudeEvent], None]] = None # Callback for raw CLI events
+    fail_fast_on_cli_api_error: bool = False                        # Abort immediately on API errors in stderr/stdout
+```
+
+---
+
+### Type Aliases
+
+```python
+PermissionMode = Literal["default", "acceptEdits", "plan", "auto", "dontAsk", "bypassPermissions"]
+Effort = Literal["low", "medium", "high", "xhigh", "max"]
+Input = Union[str, list[UserInput]]
+RunResult = Turn          # Alias
+RunStreamedResult = StreamedTurn  # Alias
+```
+
+---
+
+### `UserInput` Types (TypedDict)
+
+```python
+class UserTextInput(TypedDict):
+    type: Literal["text"]
+    text: str
+
+class UserLocalImageInput(TypedDict):
+    type: Literal["local_image"]
+    path: str
+
+UserInput = Union[UserTextInput, UserLocalImageInput]
+```
+
+---
+
+### `Session`
+
+Manages a conversation session. Created via `ClaudeCode.start_session()`, `resume_session()`, or `continue_session()`.
+
+```python
+class Session:
+    @property
+    def id(self) -> str | None
+        # The session ID, populated after the first turn completes.
+
+    async def run(self, input: Input, turn_options: TurnOptions | None = None) -> Turn
+        # Buffered mode. Runs a turn, collects all events, returns a Turn object.
+        # Raises RuntimeError if an ErrorEvent is received.
+
+    async def run_streamed(self, input: Input, turn_options: TurnOptions | None = None) -> StreamedTurn
+        # Streaming mode. Returns immediately with a StreamedTurn whose .events is an AsyncIterator[RelayEvent].
+```
+
+**Parameters for `run` and `run_streamed`:**
+- `input` (`Input`): A string prompt, or a list of `UserTextInput` / `UserLocalImageInput` dicts.
+- `turn_options` (`TurnOptions | None`): Per-turn options (abort signal, raw event callback, fail-fast).
+
+---
+
+### `Turn` (also aliased as `RunResult`)
+
+Returned by `session.run()`.
+
+```python
+@dataclass
+class Turn:
+    events: list[RelayEvent]         # All relay events from this turn
+    final_response: str              # Concatenated text output
+    usage: TurnUsage | None          # Token usage and cost
+    session_id: str | None           # Session ID for resumption
+    structured_output: Any = None    # Parsed structured output (if json_schema was set)
+```
+
+---
+
+### `StreamedTurn` (also aliased as `RunStreamedResult`)
+
+Returned by `session.run_streamed()`.
+
+```python
+@dataclass
+class StreamedTurn:
+    events: AsyncIterator[RelayEvent]  # Async iterator of relay events
+```
+
+---
+
+### `TurnUsage`
+
+Token usage and cost for a completed turn.
+
+```python
+@dataclass
+class TurnUsage:
+    cost_usd: float | None = None
+    input_tokens: int | None = None
+    output_tokens: int | None = None
+    context_window: int | None = None
+```
+
+---
+
+## Relay Event Types
+
+All relay events are dataclasses. The union type is:
+
+```python
+RelayEvent = Union[
+    TextDeltaEvent,
+    ThinkingDeltaEvent,
+    ToolUseEvent,
+    ToolResultEvent,
+    SessionMetaEvent,
+    TurnCompleteEvent,
+    ErrorEvent,
+]
+```
+
+### `TextDeltaEvent`
+
+Incremental text output from the assistant.
+
+```python
+@dataclass
+class TextDeltaEvent:
+    content: str = ""
+    type: str = "text_delta"
+```
+
+### `ThinkingDeltaEvent`
+
+Incremental thinking/reasoning output.
+
+```python
+@dataclass
+class ThinkingDeltaEvent:
+    content: str = ""
+    type: str = "thinking_delta"
+```
+
+### `ToolUseEvent`
+
+The assistant is calling a tool.
+
+```python
+@dataclass
+class ToolUseEvent:
+    tool_use_id: str = ""
+    tool_name: str = ""
+    input: str = ""         # JSON-encoded tool input
+    type: str = "tool_use"
+```
+
+### `ToolResultEvent`
+
+Result of a tool execution.
+
+```python
+@dataclass
+class ToolResultEvent:
+    tool_use_id: str = ""
+    output: str = ""
+    is_error: bool = False
+    type: str = "tool_result"
+```
+
+### `SessionMetaEvent`
+
+Session metadata emitted on init.
+
+```python
+@dataclass
+class SessionMetaEvent:
+    type: str = "session_meta"
+    model: str = "unknown"
+```
+
+### `TurnCompleteEvent`
+
+Emitted when a turn finishes successfully.
+
+```python
+@dataclass
+class TurnCompleteEvent:
+    type: str = "turn_complete"
+    session_id: Optional[str] = None
+    cost_usd: Optional[float] = None
+    input_tokens: Optional[int] = None
+    output_tokens: Optional[int] = None
+    context_window: Optional[int] = None
+```
+
+### `ErrorEvent`
+
+Emitted when an error occurs.
+
+```python
+@dataclass
+class ErrorEvent:
+    type: str = "error"
+    message: str = ""
+    session_id: Optional[str] = None
+```
+
+---
+
+## Raw CLI Event Types
+
+Low-level events from the CLI subprocess. Received via `TurnOptions.on_raw_event`.
+
+```python
+RawClaudeEvent = Union[
+    SpawnEvent,
+    StdinClosedEvent,
+    StdoutLineEvent,
+    StderrChunkEvent,
+    StderrLineEvent,
+    ProcessErrorEvent,
+    ExitEvent,
+]
+```
+
+### `SpawnEvent`
+
+```python
+@dataclass
+class SpawnEvent:
+    command: str = ""
+    args: List[str] = field(default_factory=list)
+    cwd: Optional[str] = None
+    type: str = "spawn"
+```
+
+### `StdinClosedEvent`
+
+```python
+@dataclass
+class StdinClosedEvent:
+    type: str = "stdin_closed"
+```
+
+### `StdoutLineEvent`
+
+```python
+@dataclass
+class StdoutLineEvent:
+    line: str = ""
+    type: str = "stdout_line"
+```
+
+### `StderrChunkEvent`
+
+```python
+@dataclass
+class StderrChunkEvent:
+    chunk: str = ""
+    type: str = "stderr_chunk"
+```
+
+### `StderrLineEvent`
+
+```python
+@dataclass
+class StderrLineEvent:
+    line: str = ""
+    type: str = "stderr_line"
+```
+
+### `ProcessErrorEvent`
+
+```python
+@dataclass
+class ProcessErrorEvent:
+    error: Optional[BaseException] = None
+    type: str = "process_error"
+```
+
+### `ExitEvent`
+
+```python
+@dataclass
+class ExitEvent:
+    code: Optional[int] = None
+    signal: Optional[str] = None
+    type: str = "exit"
+```
+
+---
+
+## Parser Sub-package (`claude_code.parser`)
+
+The parser sub-package handles parsing of the CLI's NDJSON stdout protocol and translating raw events into typed relay events.
+
+### Exported symbols
+
+```python
+from claude_code.parser import (
+    ClaudeContent,
+    ClaudeEvent,
+    ClaudeMessage,
+    ErrorEvent,
+    ModelUsageEntry,
+    RelayEvent,
+    SessionMetaEvent,
+    TextDeltaEvent,
+    ThinkingDeltaEvent,
+    ToolResultEvent,
+    ToolUseEvent,
+    Translator,
+    TurnCompleteEvent,
+    create_message,
+    extract_content,
+    parse_line,
+)
+```
+
+### `parse_line(line: str) -> Optional[ClaudeEvent]`
+
+Parses a single NDJSON line from the CLI stdout into a `ClaudeEvent`. Returns `None` for empty lines or invalid JSON.
+
+```python
+def parse_line(line: str) -> Optional[ClaudeEvent]
+```
+
+### `ClaudeEvent`
+
+Internal representation of a parsed CLI event.
+
+```python
+@dataclass
+class ClaudeEvent:
+    type: str                                          # "system", "assistant", "user", "result", "stream_event"
+    subtype: Optional[str] = None                      # e.g. "init", "result", "api_retry", "error"
+    message: Optional[ClaudeMessage] = None
+    result: Any = None
+    session_id: Optional[str] = None
+    model: Optional[str] = None
+    tools: Optional[List[str]] = None
+    duration_ms: Optional[int] = None
+    duration_api_ms: Optional[int] = None
+    cost_usd: Optional[float] = None
+    total_cost_usd: Optional[float] = None
+    is_error: Optional[bool] = None
+    num_turns: Optional[int] = None
+    model_usage: Optional[Dict[str, ModelUsageEntry]] = None
+    usage: Any = None
+    event: Any = None
+    attempt: Optional[int] = None
+    max_retries: Optional[int] = None
+    retry_delay_ms: Optional[int] = None
+    error_status: Optional[int] = None
+    error: Optional[str] = None
+    raw: Dict[str, Any] = field(default_factory=dict)  # Original raw dict
+```
+
+### `ClaudeMessage`
+
+Represents an assistant or user message within a `ClaudeEvent`.
+
+```python
+@dataclass
+class ClaudeMessage:
+    content: List[ClaudeContent] = field(default_factory=list)
+    role: Optional[str] = None
+    stop_reason: Optional[str] = None
+    id: Optional[str] = None
+```
+
+### `ClaudeContent`
+
+A single content block within a `ClaudeMessage`.
+
+```python
+@dataclass
+class ClaudeContent:
+    type: str                             # "text", "thinking", "tool_use", "tool_result"
+    text: Optional[str] = None
+    thinking: Optional[str] = None
+    id: Optional[str] = None
+    name: Optional[str] = None
+    input: Any = None
+    content: Any = None
+    tool_use_id: Optional[str] = None
+    is_error: Optional[bool] = None
+```
+
+### `ModelUsageEntry`
+
+Token usage for a specific model.
+
+```python
+@dataclass
+class ModelUsageEntry:
+    input_tokens: int = 0
+    output_tokens: int = 0
+    cache_read_input_tokens: int = 0
+    cache_creation_input_tokens: int = 0
+    context_window: int = 0
+```
+
+### `Translator`
+
+Stateful translator that converts `ClaudeEvent` objects into `RelayEvent` lists.
+
+```python
+class Translator:
+    def __init__(self) -> None
+
+    @property
+    def session_id(self) -> Optional[str]
+        # Returns the session ID discovered during translation.
+
+    @property
+    def model(self) -> Optional[str]
+        # Returns the model name discovered during translation.
+
+    def reset(self) -> None
+        # Resets content tracking state. Called automatically on turn completion.
+
+    def translate(self, raw: ClaudeEvent) -> list[RelayEvent]
+        # Translates a ClaudeEvent into zero or more RelayEvents.
+        # Handles "system", "result", "assistant", and "user" event types.
+```
+
+### `extract_content(raw: Any) -> str`
+
+Extracts text content from various formats (string, list of dicts with "text" keys, None). Returns a string.
+
+```python
+def extract_content(raw: Any) -> str
+```
+
+### `create_message`
+
+Singleton instance of `_CreateMessage` for building stream-json protocol messages.
+
+```python
+create_message.user(content: Any) -> str
+    # Creates a JSON user message string. Returns NDJSON line (with trailing newline).
+
+create_message.approve(tool_use_id: str) -> str
+    # Creates a JSON tool approval message. Returns NDJSON line.
+
+create_message.deny(tool_use_id: str) -> str
+    # Creates a JSON tool denial message. Returns NDJSON line.
+
+create_message.tool_result(tool_use_id: str, content: Any) -> str
+    # Creates a JSON tool result message. Returns NDJSON line.
+```
+
+---
+
+## Usage Examples
+
+### Buffered Mode (Basic)
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        dangerously_skip_permissions=True,
+    ))
+
+    turn = await session.run("Explain Python async/await in 3 sentences")
+    print(turn.final_response)
+    print(f"Cost: ${turn.usage.cost_usd:.4f}")
+
+asyncio.run(main())
+```
+
+### Streaming Mode
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        dangerously_skip_permissions=True,
+    ))
+
+    streamed = await session.run_streamed("Write a haiku about programming")
+    async for event in streamed.events:
+        if event.type == "text_delta":
+            print(event.content, end="", flush=True)
+        elif event.type == "thinking_delta":
+            print(f"[thinking] {event.content}", end="", flush=True)
+        elif event.type == "tool_use":
+            print(f"\n[tool call] {event.tool_name}")
+        elif event.type == "tool_result":
+            print(f"[tool result] {event.output[:100]}")
+        elif event.type == "turn_complete":
+            print(f"\n\nDone. Tokens: {event.input_tokens} in / {event.output_tokens} out")
+            print(f"Cost: ${event.cost_usd:.4f}")
+        elif event.type == "error":
+            print(f"\nError: {event.message}")
+
+asyncio.run(main())
+```
+
+### Multi-Turn Session
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        dangerously_skip_permissions=True,
+    ))
+
+    # Turn 1
+    turn1 = await session.run("Remember: the secret code is 42")
+    print(turn1.final_response)
+
+    # Turn 2 -- session is auto-resumed
+    turn2 = await session.run("What is the secret code?")
+    print(turn2.final_response)  # Will recall "42"
+
+    # Resume from a different ClaudeCode instance using the session ID
+    claude2 = ClaudeCode()
+    session2 = claude2.resume_session(session.id, SessionOptions(model="sonnet"))
+    turn3 = await session2.run("What is the secret code?")
+    print(turn3.final_response)
+
+asyncio.run(main())
+```
+
+### Continue Most Recent Session
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.continue_session(SessionOptions(model="sonnet"))
+    turn = await session.run("Continue where we left off")
+    print(turn.final_response)
+
+asyncio.run(main())
+```
+
+### Structured Output (JSON Schema)
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions
+
+async def main():
+    schema = {
+        "type": "object",
+        "properties": {
+            "name": {"type": "string"},
+            "age": {"type": "integer"},
+            "hobbies": {"type": "array", "items": {"type": "string"}},
+        },
+        "required": ["name", "age", "hobbies"],
+    }
+
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        json_schema=schema,
+        dangerously_skip_permissions=True,
+    ))
+
+    turn = await session.run("Extract: Alice is 30, enjoys hiking and painting")
+    print(turn.structured_output)
+    # {"name": "Alice", "age": 30, "hobbies": ["hiking", "painting"]}
+
+asyncio.run(main())
+```
+
+### Image Input
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        dangerously_skip_permissions=True,
+    ))
+
+    turn = await session.run([
+        {"type": "text", "text": "What is in this image?"},
+        {"type": "local_image", "path": "./screenshot.png"},
+    ])
+    print(turn.final_response)
+
+asyncio.run(main())
+```
+
+### Abort / Cancel a Turn
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions, TurnOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        dangerously_skip_permissions=True,
+    ))
+
+    abort = asyncio.Event()
+    asyncio.get_event_loop().call_later(5, abort.set)  # Cancel after 5 seconds
+
+    turn = await session.run(
+        "Write a very long essay about the history of computing",
+        TurnOptions(signal=abort),
+    )
+    print(f"Got partial response: {len(turn.final_response)} chars")
+
+asyncio.run(main())
+```
+
+### Fail-Fast on API Errors
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions, TurnOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        dangerously_skip_permissions=True,
+    ))
+
+    try:
+        turn = await session.run(
+            "Hello",
+            TurnOptions(fail_fast_on_cli_api_error=True),
+        )
+    except RuntimeError as e:
+        print(f"API error detected early: {e}")
+
+asyncio.run(main())
+```
+
+### Raw Event Callback
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions, TurnOptions, RawClaudeEvent
+
+async def main():
+    def on_raw(event: RawClaudeEvent):
+        print(f"[raw] {event.type}: {event}")
+
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        dangerously_skip_permissions=True,
+    ))
+
+    turn = await session.run(
+        "Hello",
+        TurnOptions(on_raw_event=on_raw),
+    )
+    print(turn.final_response)
+
+asyncio.run(main())
+```
+
+### Authentication via Code
+
+```python
+from claude_code import ClaudeCode, ClaudeCodeOptions
+
+# Using API key
+claude = ClaudeCode(ClaudeCodeOptions(api_key="sk-ant-..."))
+
+# Using auth token + base URL (for proxy/compatible endpoints)
+claude = ClaudeCode(ClaudeCodeOptions(
+    auth_token="your-token",
+    base_url="https://your-proxy.com/v1",
+))
+
+# Using custom CLI path
+claude = ClaudeCode(ClaudeCodeOptions(cli_path="/usr/local/bin/claude"))
+```
+
+### Custom System Prompt
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        system_prompt="You are a helpful code reviewer. Always respond in bullet points.",
+        dangerously_skip_permissions=True,
+    ))
+    turn = await session.run("Review this function: def add(a, b): return a + b")
+    print(turn.final_response)
+
+asyncio.run(main())
+```
+
+### Sub-Agent Definitions
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions, AgentDefinition
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        agents={
+            "reviewer": AgentDefinition(
+                description="Code reviewer agent",
+                prompt="You review code for bugs and style issues",
+                model="sonnet",
+                max_turns=3,
+            ),
+        },
+        dangerously_skip_permissions=True,
+    ))
+    turn = await session.run("Use the reviewer agent to check my code")
+    print(turn.final_response)
+
+asyncio.run(main())
+```
+
+### Raw Event Logging
+
+```python
+import asyncio
+from claude_code import ClaudeCode, SessionOptions
+
+async def main():
+    claude = ClaudeCode()
+    session = claude.start_session(SessionOptions(
+        model="sonnet",
+        dangerously_skip_permissions=True,
+        raw_event_log=True,  # Logs to ./agent_logs/
+        # Or: raw_event_log="/absolute/path/to/log/dir"
+    ))
+    turn = await session.run("Hello")
+    print(turn.final_response)
+
+asyncio.run(main())
+```
+
+---
+
+## Error Handling
+
+### RuntimeError from `session.run()`
+
+If the CLI stream produces an `ErrorEvent`, `session.run()` raises a `RuntimeError` with the error message.
+
+```python
+try:
+    turn = await session.run("some prompt")
+except RuntimeError as e:
+    print(f"Error: {e}")
+```
+
+### ErrorEvent in Streaming
+
+In streaming mode, `ErrorEvent` instances appear in the event stream. The stream may also raise exceptions if the CLI subprocess fails.
+
+```python
+streamed = await session.run_streamed("some prompt")
+try:
+    async for event in streamed.events:
+        if event.type == "error":
+            print(f"Stream error: {event.message}")
+            break
+except RuntimeError as e:
+    print(f"Stream failed: {e}")
+```
+
+### Fail-Fast API Error Detection
+
+With `fail_fast_on_cli_api_error=True` in `TurnOptions`, the SDK monitors both stderr and stdout for API error patterns and aborts early instead of waiting for the CLI to time out.
+
+### CLI Exit Codes
+
+If the CLI process exits with a non-zero exit code, a `RuntimeError` is raised with the exit code and stderr content. If terminated by a signal, the signal name is included.
+
+---
+
+## Complete List of Public Exports
+
+```python
+from claude_code import (
+    # Entry point
+    ClaudeCode,
+
+    # Option dataclasses
+    ClaudeCodeOptions,
+    SessionOptions,
+    TurnOptions,
+    AgentDefinition,
+
+    # Type aliases
+    PermissionMode,      # Literal["default", "acceptEdits", "plan", "auto", "dontAsk", "bypassPermissions"]
+    Effort,              # Literal["low", "medium", "high", "xhigh", "max"]
+    Input,               # Union[str, list[UserInput]]
+    RunResult,           # = Turn
+    RunStreamedResult,   # = StreamedTurn
+
+    # Input types (TypedDict)
+    UserInput,           # Union[UserTextInput, UserLocalImageInput]
+    UserTextInput,
+    UserLocalImageInput,
+
+    # Session and results
+    Session,
+    Turn,
+    StreamedTurn,
+    TurnUsage,
+
+    # Relay events
+    RelayEvent,
+    TextDeltaEvent,
+    ThinkingDeltaEvent,
+    ToolUseEvent,
+    ToolResultEvent,
+    SessionMetaEvent,
+    TurnCompleteEvent,
+    ErrorEvent,
+
+    # Raw CLI events
+    RawClaudeEvent,
+    SpawnEvent,
+    StdinClosedEvent,
+    StdoutLineEvent,
+    StderrChunkEvent,
+    StderrLineEvent,
+    ProcessErrorEvent,
+    ExitEvent,
+
+    # Parser protocol types
+    ClaudeEvent,
+    ClaudeMessage,
+    ClaudeContent,
+    ModelUsageEntry,
+
+    # Parser utilities
+    Translator,
+    parse_line,
+    extract_content,
+    create_message,
+)
+```
